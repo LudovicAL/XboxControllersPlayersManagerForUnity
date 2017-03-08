@@ -27,8 +27,10 @@ object provides its own 'Controller' object that is publicly accessible. The 'Co
 let you access the different joysticks and buttons assigned to that player. The following code
 sample would therefore provide information on the current value of the first players 'X' button:
 
-	PlayersManager playersManager = GameObject.Find("Canvas PlayerControllerPrefab").GetComponent<PlayersManager>();
-	bool buttonAValue = Input.GetButton (playersManager.listOfPlayers [0].controller.buttonA);
+```C#
+PlayersManager playersManager = GameObject.Find("Canvas PlayerControllerPrefab").GetComponent<PlayersManager>();
+bool buttonAValue = Input.GetButton (playersManager.listOfPlayers [0].controller.buttonA);
+```
 
 Note that the 'InputManager.asset' map all the controls for 11 different Xbox controllers as well
 as the default controls usually provided by default in a Unity project. The only exceptions are the
