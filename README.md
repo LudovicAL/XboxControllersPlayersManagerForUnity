@@ -35,6 +35,6 @@ bool buttonAValue = Input.GetButton (playersManager.listOfPlayers [0].controller
 Note that the 'InputManager.asset' map all the controls for 11 different Xbox controllers as well
 as the default controls usually provided by default in a Unity project. The only exceptions are the
 two trigger buttons (axis 9 and 10 of a Xbox controller). It is a known issue with Window's drivers
-that the behaviour of these two buttons becomes unpredictable when more then one is plugged in a
-Window machine.
+that the behaviour of these two buttons becomes unpredictable when more then one Xbox controller is
+plugged in a Window machine.
 
