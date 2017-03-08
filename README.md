@@ -25,7 +25,7 @@ Up to 11 players may join the game, provided enough Xbox controllers are connect
 Use the listOfPlayers variable to access the list of players that have joined the game. Every 'Player'
 object provides its own 'Controller' object that is publicly accessible. The 'Controller' object
 let you access the different joysticks and buttons assigned to that player. The following code
-sample would therefore provide information on the current value of the first players 'X' button:
+sample would therefore provide information on the current value of the first players 'A' button:
 
 ```C#
 PlayersManager playersManager = GameObject.Find("Canvas PlayerControllerPrefab").GetComponent<PlayersManager>();
