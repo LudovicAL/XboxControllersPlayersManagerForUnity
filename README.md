@@ -9,12 +9,12 @@ Xbox controller joysticks and buttons.
 
 To install the 'Xbox controllers players manager for Unity' package, follow these steps:
 
-1) Replace the 'InputManager.asset' file located in your project folder under 'ProjectSettings'
+1. Replace the 'InputManager.asset' file located in your project folder under 'ProjectSettings'
 with the corresponding included file.
 
-2) Import our .unitypackage file in your Unity project.
+2. Import our .unitypackage file in your Unity project.
 
-3) Drag and drop the 'Canvas PlayerControllerPrefab' in any of your scene.
+3. Drag and drop the 'Canvas PlayerControllerPrefab' in any of your scene.
 
 Installation is then complete.
 
