@@ -15,7 +15,7 @@ To install the 'Xbox controllers players manager for Unity' package, follow thes
 2. Replace the 'InputManager.asset' file located in your project folder under 'ProjectSettings'
 with the corresponding included file.
 
-3. Drag and drop the 'Canvas PlayerControllerPrefab' in any of your scene.
+3. From the Prefabs folder, drag and drop to your scene the 'Canvas', the 'PlayersManager' and the 'ResourcesLoader'.
 
 Installation is then complete.
 
